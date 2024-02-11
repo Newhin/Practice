@@ -45,6 +45,10 @@ html{
     #sidebar a:hover{
         color:gold;
     }
+
+    #upper_bar{
+        background-color:#cfa3ea;
+    }
     
 }
 
@@ -72,6 +76,10 @@ html{
         color:greenyellow;
     }
     
+    #upper_bar{
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    }
+    
 }
 
 /* Uppermost bar */
@@ -79,7 +87,6 @@ html{
 #upper_bar{
     min-height:10vh;
     max-width:100vw;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     color:black;
     display:flex;
     justify-content: center;
